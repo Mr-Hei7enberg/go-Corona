@@ -316,6 +316,10 @@ body {
 /*=======================================================*/
 .block-text {}
 
+.block-text-center {
+    text-align: center;
+}
+
 .block-text__title {
     font-weight: 700;
     font-size: 44px;
@@ -337,6 +341,11 @@ body {
 
 .block-text__text {
     line-height: 138.5%;
+}
+
+.block-text__text_mw {
+    max-width: 620px;
+    margin: 0 auto;
 }
 
 .block-text__text:not(:last-child) {
